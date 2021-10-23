@@ -9,7 +9,7 @@
     "predeploy": "npm run build",
     "deploy": "vk-miniapps-deploy",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b build"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
