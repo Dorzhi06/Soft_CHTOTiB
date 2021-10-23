@@ -5,9 +5,10 @@ import '@vkontakte/vkui/dist/vkui.css';
 
 import Home from './panels/Home';
 import Persik from './panels/Persik';
+import MainPage from './panels/MainPage'
 
 const App = () => {
-	const [activePanel, setActivePanel] = useState('home');
+	const [activePanel, setActivePanel] = useState('mainPage');
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
 
@@ -37,6 +38,7 @@ const App = () => {
 				<View activePanel={activePanel} popout={popout}>
 					<Home id='home' fetchedUser={fetchedUser} go={go} />
 					<Persik id='persik' go={go} />
+                    <MainPage id='mainPage' go={go} />
 				</View>
 			</AppRoot>
 		</AdaptivityProvider>
