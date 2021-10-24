@@ -23,7 +23,7 @@ const Home = ({ id, go, fetchedUser }) => (
 				</Button>
             </Div>
             <Div>
-                <Button stretched size="l" mode="secondary" onClick={go} data-to="MainPage">
+                <Button stretched size="l" mode="secondary" onClick={go} data-to="mainPage">
 					Show me the Main Page! 
 				</Button>
 			</Div>
