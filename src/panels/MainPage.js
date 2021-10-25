@@ -7,7 +7,7 @@ const MainPage = props => (
 	<Panel id={props.id}>
 		<PanelHeader
 			left={<PanelHeaderBack onClick={props.go} data-to="home"/>}>
-			Hello
+			Hello stupid
 		</PanelHeader>
 		<h1>Hi my friends</h1>
 	</Panel>
