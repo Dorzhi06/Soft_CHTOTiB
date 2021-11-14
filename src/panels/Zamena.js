@@ -7,9 +7,9 @@ const MainPage = props => (
 	<Panel id={props.id}>
 		<PanelHeader
 			left={<PanelHeaderBack onClick={props.go} data-to="home"/>}>
-			Расписание на понедельник
+			Замена на понедельник
 		</PanelHeader>
-        <h1 align="center">Расписание ИСиП-18-1 на понедельник</h1>
+        <h1 align="center">Замена ИСиП-18-1 на понедельник</h1>
 		<table>
             <thead>
                 <tr>
@@ -21,17 +21,10 @@ const MainPage = props => (
             </thead>
             <tbody>
                 <tr>
-                    <td>1</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>МДК 01.02 Поддержка и тестир. ПМ</td>
-                    <td>23/</td>
-                    <td>Панова С.О</td>
+                    <td>1,2</td>
+                    <td>МДК. 01.03 Разработка мобильных приложений</td>
+                    <td>54</td>
+                    <td>Зорин А.А</td>
                 </tr>
                 <tr>
                     <td>3</td>
@@ -41,15 +34,9 @@ const MainPage = props => (
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td>МДК 01.01 Разработка ПМ</td>
-                    <td>58</td>
-                    <td>Семченкова И.И</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>МДК 01.01 Разработка ПМ</td>
-                    <td>58</td>
-                    <td>Семченкова И.И</td>
+                    <td>МДК 11.01 Техн. разр. БД</td>
+                    <td>55</td>
+                    <td>Юн Р.Е</td>
                 </tr>
             </tbody>
         </table>
