@@ -10,7 +10,7 @@ import MainPage from './panels/MainPage'
 const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
 	const [fetchedUser, setUser] = useState(null);
-	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
+	//const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
 
 	useEffect(() => {
 		bridge.subscribe(({ detail: { type, data }}) => {
@@ -21,9 +21,9 @@ const App = () => {
 			}
 		});
 		async function fetchData() {
-			const user = await bridge.send('VKWebAppGetUserInfo');
-			setUser(user);
-			setPopout(null);
+			//const user = await bridge.send('VKWebAppGetUserInfo');
+	        //setUser(user);
+			//setPopout(null);
 		}
 		fetchData();
 	}, []);
